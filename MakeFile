@@ -1,0 +1,39 @@
+# Ce fichier "Makefile" permet d'automatiser la compilation du projet.
+# Note : Par convention, ce fichier devrait s'appeler "Makefile" (sans extension).
+# Si vous le nommez "make", lancez la commande : make -f make
+
+# Définition du compilateur à utiliser (gcc)
+CC = gcc
+
+# Définition des options de compilation
+# -Wall : active tous les avertissements (warnings) recommandés
+# -g    : ajoute les informations de débogage pour gdb
+CFLAGS = -Wall -g
+
+# La première règle est celle exécutée par défaut si on lance juste "make"
+# Ici, on demande à make de créer l'exécutable "td1", puis de le lancer
+all: td1
+	./td1
+
+# ".PHONY" indique que "all" et "clean" ne sont pas des fichiers réels to create
+.PHONY: all clean
+
+# Règle pour créer l'exécutable final "td1"
+# Dépendances : td1.o et hello.o (les fichiers objets)
+# La ligne suivante commence par une tabulation et contient la commande de linkage
+td1: td1.o hello.o
+	$(CC) $(CFLAGS) -o td1 td1.o hello.o
+
+# Règle pour compiler td1.c en fichier objet td1.o
+# L'option -c indique à gcc de compiler sans faire l'édition de liens
+td1.o: td1.c hello.h
+	$(CC) $(CFLAGS) -c td1.c
+
+# Règle pour compiler hello.c en fichier objet hello.o
+hello.o: hello.c hello.h
+	$(CC) $(CFLAGS) -c hello.c
+
+# Règle "phony" pour nettoyer les fichiers générés (.o et l'exécutable)
+# On l'appelle avec : make clean
+clean:
+	rm -f *.o td1
