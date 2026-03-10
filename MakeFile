@@ -1,6 +1,6 @@
 CC = gcc   # compilateur à utiliser
 
-CFLAGS = -Wall -g     # flags à utiliser (Wall pour tous les warnings)
+CFLAGS = -Wall -g -pthread     # flags à utiliser (Wall pour tous les warnings)
 
 
 # On execute tous les fichiers td1

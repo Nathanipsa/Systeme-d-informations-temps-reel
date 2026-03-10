@@ -3,6 +3,26 @@
 #include "hello.h"
 #include<time.h>
 #include<memory.h>
+#include<unistd.h>
+#include<semaphore.h>
+#include<pthread.h>
+
+sem_t semaphore;
+
+void *print_message(void *ptr) {
+    int id = *((int *)ptr);
+    printf("\nThread %d essaie de se lancer\n", id);
+    
+    sem_wait(&semaphore); 
+    
+    printf("Début \n", id);
+    sleep(2); 
+    printf("Thread %d fini.\n", id);
+    
+    sem_post(&semaphore); 
+    
+    return NULL;
+}
 
 void compare(const int a, const int b) {
     if (a < b) {
@@ -101,22 +121,46 @@ int main() {
         i++;
     }
 
+    // On lance le semaphore à 1 
+    sem_init(&semaphore, 0, 1);
+
+    pthread_t thread1, thread2, thread3;
+    int id1 = 1, id2 = 2, id3 = 3;
+
+    // On fait les threads
+    if(pthread_create(&thread1, NULL, print_message, &id1)) {
+        fprintf(stderr, "Erreur de creation thread 1\n");
+        return 1;
+    }
+    if(pthread_create(&thread2, NULL, print_message, &id2)) {
+        fprintf(stderr, "Erreur de création thread 2\n");
+        return 1;
+    }
+    if(pthread_create(&thread3, NULL, print_message, &id3)) {
+        fprintf(stderr, "Erreur de création thread 3\n");
+        return 1;
+    }
+
+    // On attend que les threads soient finis
+    if(pthread_join(thread1, NULL)) {
+        fprintf(stderr, "Erreur join thread 1\n");
+        return 2;
+    }
+    if(pthread_join(thread2, NULL)) {
+        fprintf(stderr, "Erreur join thread 2\n");
+        return 2;
+    }
+    if(pthread_join(thread3, NULL)) {
+        fprintf(stderr, "Erreur join thread 3\n");
+        return 2;
+    }
+
+    sem_destroy(&semaphore);
+
     assert(42, &i);
 
     int result = sum(5, 10);
     printf("Sum: %d\n", result);
-
-    long long int factorial = 1;
-    for (int i = 1; i <= 20; i++) {
-        
-        for (int j = 1; j <= 30; j++) {
-            for (int k = 1; k <= 3000; k++) {
-                // Just to increase the time taken by the program
-                factorial =k;
-            }
-        }
-
-    }
 
     int array[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
     int size = sizeof(array) / sizeof(array[0]);
@@ -127,6 +171,8 @@ int main() {
     } else {
         printf("Target not found\n");
     }
+
+    
 
     int binary_index = binarySearch(array, size, target);
     if (binary_index != -1) {
@@ -147,6 +193,12 @@ int main() {
     end = clock();
     double time_taken = (double)(end - start) / CLOCKS_PER_SEC;
     printf("Execution time: %f seconds\n", time_taken);
+
+    printf("On attend\n");
+
+    sleep(10);
+
+    printf("10 secondes");
 
     return 0;
 }
