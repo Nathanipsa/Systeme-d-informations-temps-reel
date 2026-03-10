@@ -1,5 +1,8 @@
 #include<stdlib.h>
+#include<stdio.h>
 #include "hello.h"
+#include<time.h>
+#include<memory.h>
 
 void compare(const int a, const int b) {
     if (a < b) {
@@ -81,6 +84,10 @@ int* selectionSort(int *array, int size) {
 }
 
 int main() {
+    clock_t start, end;
+    start = clock();
+
+
     print_hello();
     compare(5, 10);
 
@@ -98,6 +105,18 @@ int main() {
 
     int result = sum(5, 10);
     printf("Sum: %d\n", result);
+
+    long long int factorial = 1;
+    for (int i = 1; i <= 20; i++) {
+        
+        for (int j = 1; j <= 30; j++) {
+            for (int k = 1; k <= 3000; k++) {
+                // Just to increase the time taken by the program
+                factorial =k;
+            }
+        }
+
+    }
 
     int array[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
     int size = sizeof(array) / sizeof(array[0]);
@@ -124,6 +143,10 @@ int main() {
         printf("%d ", result_array[i]);
     }
     printf("\n");
+
+    end = clock();
+    double time_taken = (double)(end - start) / CLOCKS_PER_SEC;
+    printf("Execution time: %f seconds\n", time_taken);
 
     return 0;
 }
