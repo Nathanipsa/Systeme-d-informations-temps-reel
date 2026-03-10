@@ -32,7 +32,7 @@ int search(int *array, int size, int target) {
     return -1; // Target not found
 }
 
-int binary_search(int *array, int size, int target) {
+int binarySearch(int *array, int size, int target) {
     int left = 0;
     int right = size - 1;
 
@@ -52,6 +52,32 @@ int binary_search(int *array, int size, int target) {
         }
     }
     return -1; // Target not found
+}
+
+int* selectionSort(int *array, int size) {
+
+    int *array_copy = (int *)malloc(size * sizeof(int));
+    for (int i = 0; i < size; i++) {
+        array_copy[i] = array[i];
+    }
+
+    for (int j = 0; j < size - 1; j++) {
+        
+        int min = j;
+
+        for (int i = j + 1; i < size; i++) {
+            if (array_copy[i] < array_copy[min]) {
+                min = i;
+            }
+        }
+
+        int temp = array_copy[j];
+        array_copy[j] = array_copy[min];
+        array_copy[min] = temp;
+
+    }
+
+    return array_copy;
 }
 
 int main() {
@@ -83,12 +109,21 @@ int main() {
         printf("Target not found\n");
     }
 
-    int binary_index = binary_search(array, size, target);
+    int binary_index = binarySearch(array, size, target);
     if (binary_index != -1) {
         printf("Target found at index: %d\n", binary_index);
     } else {
         printf("Target not found\n");
     }
+
+    int sorted_array[] = {64, 25, 12, 22, 11};
+    int sorted_size = sizeof(sorted_array) / sizeof(sorted_array[0]);
+    int *result_array = selectionSort(sorted_array, sorted_size);
+    printf("Sorted array: ");
+    for (int i = 0; i < sorted_size; i++) {
+        printf("%d ", result_array[i]);
+    }
+    printf("\n");
 
     return 0;
 }
