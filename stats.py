@@ -9,6 +9,8 @@ times = []
 security_factor = 1.3
 
 
+
+
 for i in tqdm(range(10000), desc="Calculating WCET"):
     start_time = time.time()
     subprocess.run(["make", "-f", "MakeFile"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)

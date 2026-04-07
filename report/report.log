@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.4.6)  7 APR 2026 09:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.4.6)  7 APR 2026 09:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1288,20 +1288,20 @@ l.212 \chapter
 ]
 File: photos/ipsalogo.png Graphic file (type png)
 <use photos/ipsalogo.png>
-Package pdftex.def Info: photos/ipsalogo.png  used on input line 224.
+Package pdftex.def Info: photos/ipsalogo.png  used on input line 223.
 (pdftex.def)             Requested size: 61.5656pt x 47.21916pt.
  (/usr/share/texmf-dist/tex/generic/pgfornament/vectorian/vectorian61.pgf) (/usr/share/texmf-dist/tex/generic/pgfornament/vectorian/vectorian61.pgf) (/usr/share/texmf-dist/tex/generic/pgfornament/vectorian/vectorian61.pgf) (/usr/share/texmf-dist/tex/generic/pgfornament/vectorian/vectorian61.pgf) [2
 
 ]
 CHAPITRE I.
-LaTeX Font Info:    Trying to load font information for OT1+pzc on input line 224.
+LaTeX Font Info:    Trying to load font information for OT1+pzc on input line 226.
 (/usr/share/texmf-dist/tex/latex/psnfss/ot1pzc.fd
 File: ot1pzc.fd 2020/03/25 font definitions for OT1/pzc.
 )
 LaTeX Font Info:    Font shape `OT1/pzc/m/n' in size <76> not available
-(Font)              Font shape `OT1/pzc/m/it' tried instead on input line 224.
+(Font)              Font shape `OT1/pzc/m/it' tried instead on input line 226.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 224--224
+Overfull \hbox (10.0pt too wide) in paragraph at lines 226--226
 [][][][][][][][][]  
  []
 
@@ -1314,16 +1314,25 @@ File: lstlang1.sty 2025/11/14 1.11b listings language file
 File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
 )
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 249.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 251.
+ (./report.listing)
+\openout7 = `report.listing'.
+
  (./report.listing)
 File: photos/ipsalogo.png Graphic file (type png)
 <use photos/ipsalogo.png>
-Package pdftex.def Info: photos/ipsalogo.png  used on input line 253.
+Package pdftex.def Info: photos/ipsalogo.png  used on input line 283.
 (pdftex.def)             Requested size: 61.5656pt x 47.21916pt.
- (/usr/share/texmf-dist/tex/generic/pgfornament/vectorian/vectorian61.pgf) (/usr/share/texmf-dist/tex/generic/pgfornament/vectorian/vectorian61.pgf) (/usr/share/texmf-dist/tex/generic/pgfornament/vectorian/vectorian61.pgf) (/usr/share/texmf-dist/tex/generic/pgfornament/vectorian/vectorian61.pgf) [3
+ [3
+
 
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}]
-runsystem(latexminted cleantemp  --timestamp 20260407091109 E98D2F001DA5678B39482EFBDF5770DC)...executed safely (allowed).
+File: photos/ipsalogo.png Graphic file (type png)
+<use photos/ipsalogo.png>
+Package pdftex.def Info: photos/ipsalogo.png  used on input line 285.
+(pdftex.def)             Requested size: 61.5656pt x 47.21916pt.
+ [4]
+runsystem(latexminted cleantemp  --timestamp 20260407091941 E98D2F001DA5678B39482EFBDF5770DC)...executed safely (allowed).
 
  
 enddocument/afterlastpage (AED): lastpage setting LastPage.
@@ -1336,18 +1345,18 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: 097DA135A0369F826E44A6C74BE7D391;231.
  ) 
 Here is how much of TeX's memory you used:
- 59006 strings out of 469515
- 1391043 string characters out of 5470808
- 2489843 words of memory out of 5000000
- 86728 multiletter control sequences out of 15000+600000
+ 59181 strings out of 469515
+ 1392560 string characters out of 5470808
+ 2603843 words of memory out of 5000000
+ 86879 multiletter control sequences out of 15000+600000
  641697 words of font info for 77 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 117i,15n,121p,2591b,1764s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,15n,121p,2591b,1799s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf-dist/fonts/type1/urw/zapfchan/uzcmi8a.pfb>
-Output written on report.pdf (4 pages, 478271 bytes).
+Output written on report.pdf (5 pages, 471120 bytes).
 PDF statistics:
- 161 PDF objects out of 1000 (max. 8388607)
- 107 compressed objects within 2 object streams
- 26 named destinations out of 1000 (max. 500000)
+ 203 PDF objects out of 1000 (max. 8388607)
+ 148 compressed objects within 2 object streams
+ 56 named destinations out of 1000 (max. 500000)
  190 words of extra memory for PDF output out of 10000 (max. 10000000)
 
