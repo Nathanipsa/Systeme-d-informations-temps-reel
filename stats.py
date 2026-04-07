@@ -4,6 +4,7 @@ from tqdm import tqdm
 
 time_1 = 0
 WCET = 0
+times = []
 
 security_factor = 1.3
 
@@ -18,6 +19,14 @@ for i in tqdm(range(10000), desc="Calculating WCET"):
     if time_1 > WCET:
         WCET = time_1
 
+    times.append(time_1)
+    Q1 = sorted(times)[int(0.25 * len(times))]
+    Q3 = sorted(times)[int(0.75 * len(times))]
+    Q2 = sorted(times)[int(0.5 * len(times))]
+
 
 print("Worst Case Execution Time (WCET) : ", WCET)
 print("Secure Execution Time (SET) : ", WCET * security_factor)
+print("Q1 : ", Q1)
+print("Q2 : ", Q2)
+print("Q3 : ", Q3)

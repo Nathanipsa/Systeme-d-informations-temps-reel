@@ -5,24 +5,20 @@ CFLAGS = -Wall -g -pthread     # flags à utiliser (Wall pour tous les warnings)
 
 # On execute tous les fichiers td1
 
-all: td1 
-	./td1    
+all: final 
+	./final    
 
 # On dit à phony que all et clean sont des fonctions pas des fichiers
 .PHONY: all clean
 
 # On crée un lien entre des fichiers objets et nos fichiers c
-td1: td1.o hello.o
-	$(CC) $(CFLAGS) -o td1 td1.o hello.o
+final: final.o
+	$(CC) $(CFLAGS) -o final final.o
 
 # On crée nos fichiers objets déjà linkés
-td1.o: td1.c hello.h
-	$(CC) $(CFLAGS) -c td1.c
-
-# Pareil
-hello.o: hello.c hello.h
-	$(CC) $(CFLAGS) -c hello.c
+final.o: final.c
+	$(CC) $(CFLAGS) -c final.c
 
 # On enlève nos objets pour libérer l'espace inutile
 clean:
-	rm -f *.o td1
+	rm -f *.o final

@@ -1,0 +1,24 @@
+#include<stdlib.h>
+#include<stdio.h>
+#include<time.h>
+
+
+void tau1() {
+    long long int i = rand() % 10000;
+    long long int j = rand() % 10000;
+    i * j;
+}
+
+int main() {
+    clock_t start, end;
+    start = clock();
+
+    tau1();
+
+    end = clock();
+    double time_taken = (double)(end - start) / CLOCKS_PER_SEC;
+    printf("Execution time: %f seconds\n", time_taken);
+
+    return 0;
+}
+

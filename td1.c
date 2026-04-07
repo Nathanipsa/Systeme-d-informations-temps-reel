@@ -194,12 +194,6 @@ int main() {
     double time_taken = (double)(end - start) / CLOCKS_PER_SEC;
     printf("Execution time: %f seconds\n", time_taken);
 
-    printf("On attend\n");
-
-    sleep(10);
-
-    printf("10 secondes");
-
     return 0;
 }
 
