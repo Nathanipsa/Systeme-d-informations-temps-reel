@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.4.6)  7 APR 2026 09:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.4.6)  28 APR 2026 22:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -459,52 +459,26 @@ Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
 Package: pgfornament 2024/08/14 v1.3 vector ornaments
  (/usr/share/texmf-dist/tex/latex/pgfornament/pgflibraryvectorian.code.tex
 2020/04/06 1.1 pgflibraryvectorian.code.tex
-)) (/usr/share/texmf-dist/tex/latex/media9/media9.sty
-Package: media9 2025/06/24 v1.30 acrobat-9/X compatible media
-\g_mix_pkgresizeflag_int=\count332
- (/usr/share/texmf-dist/tex/latex/media9/pdfbase.sty
-Package: pdfbase 2024/09/16 v0.59 driver independent access to low-level PDF features
- (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count333
-)
-\g_pbs_page_int=\count334
-\g_pbs_oc_int=\count335
-) (/usr/share/texmf-dist/tex/latex/ocgx2/ocgbase.sty
-Package: ocgbase 2024/09/15 v0.24 support package for ocgx2.sty
-)
-\l_mix_poster_box=\box66
-\g_mix_wd_dim=\dimen278
-\g_mix_ht_dim=\dimen279
-\g_mix_dp_dim=\dimen280
-\g_mix_rmcnt_int=\count336
-\l_mix_viewcnt_int=\count337
-\g@mix@page@int=\count338
-\g_mix_resizeflag_int=\count339
-\l_mix_lineno_int=\count340
-\l_mix_pbtn_box=\box67
-\g_mix_mbtncnt_int=\count341
-\mix@btn@dim=\dimen281
-) (/usr/share/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count342
-\lst@gtempboxa=\box68
+)) (/usr/share/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count332
+\lst@gtempboxa=\box66
 \lst@token=\toks38
-\lst@length=\count343
-\lst@currlwidth=\dimen282
-\lst@column=\count344
-\lst@pos=\count345
-\lst@lostspace=\dimen283
-\lst@width=\dimen284
-\lst@newlines=\count346
-\lst@lineno=\count347
-\lst@maxwidth=\dimen285
+\lst@length=\count333
+\lst@currlwidth=\dimen278
+\lst@column=\count334
+\lst@pos=\count335
+\lst@lostspace=\dimen279
+\lst@width=\dimen280
+\lst@newlines=\count336
+\lst@lineno=\count337
+\lst@maxwidth=\dimen281
  (/usr/share/texmf-dist/tex/latex/listings/lstpatch.sty
 File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
 ) (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
-\c@lstnumber=\count348
-\lst@skipnumbers=\count349
-\lst@framebox=\box69
+\c@lstnumber=\count338
+\lst@skipnumbers=\count339
+\lst@framebox=\box67
 ) (/usr/share/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2025/11/14 1.11b listings configuration
 ))
@@ -518,8 +492,8 @@ Package: listings 2025/11/14 1.11b (Carsten Heinz)
     so I'm assuming it got fixed.
 (/usr/share/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2025/12/10 v3.0d eso-pic (RN)
-\ESO@tempdima=\dimen286
-\ESO@tempdimb=\dimen287
+\ESO@tempdima=\dimen282
+\ESO@tempdimb=\dimen283
 ) (/usr/share/texmf-dist/tex/latex/minted/minted.sty
 Package: minted 2026/03/03 v3.8.0 Yet another Pygments shim for LaTeX
  (/usr/share/texmf-dist/tex/generic/catchfile/catchfile.sty
@@ -530,58 +504,58 @@ Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 Package: fvextra 2026/02/25 v1.14.0 fvextra - extensions and patches for fancyvrb
  (/usr/share/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
 Package: fancyvrb 2025/07/28 4.6 verbatim text (tvz,hv)
-\FV@CodeLineNo=\count350
+\FV@CodeLineNo=\count340
 \FV@InFile=\read3
-\FV@TabBox=\box70
-\c@FancyVerbLine=\count351
-\FV@StepNumber=\count352
+\FV@TabBox=\box68
+\c@FancyVerbLine=\count341
+\FV@StepNumber=\count342
 \FV@OutFile=\write4
 ) (/usr/share/texmf-dist/tex/latex/upquote/upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
 ) (/usr/share/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2026/02/16 line numbers on paragraphs v5.7
-\linenopenalty=\count353
+\linenopenalty=\count343
 \output=\toks39
-\linenoprevgraf=\count354
-\linenumbersep=\dimen288
-\linenumberwidth=\dimen289
-\c@linenumber=\count355
-\c@pagewiselinenumber=\count356
-\c@LN@truepage=\count357
-\c@internallinenumber=\count358
-\c@internallinenumbers=\count359
-\quotelinenumbersep=\dimen290
-\bframerule=\dimen291
-\bframesep=\dimen292
-\bframebox=\box71
-\@LN@amsmath@ams@eqpen=\count360
+\linenoprevgraf=\count344
+\linenumbersep=\dimen284
+\linenumberwidth=\dimen285
+\c@linenumber=\count345
+\c@pagewiselinenumber=\count346
+\c@LN@truepage=\count347
+\c@internallinenumber=\count348
+\c@internallinenumbers=\count349
+\quotelinenumbersep=\dimen286
+\bframerule=\dimen287
+\bframesep=\dimen288
+\bframebox=\box69
+\@LN@amsmath@ams@eqpen=\count350
 )
-\c@FancyVerbWriteLine=\count361
-\c@FancyVerbBufferLine=\count362
-\c@FV@TrueTabGroupLevel=\count363
-\c@FV@TrueTabCounter=\count364
-\FV@TabBox@Group=\box72
-\FV@bgcolorstructbox=\box73
+\c@FancyVerbWriteLine=\count351
+\c@FancyVerbBufferLine=\count352
+\c@FV@TrueTabGroupLevel=\count353
+\c@FV@TrueTabCounter=\count354
+\FV@TabBox@Group=\box70
+\FV@bgcolorstructbox=\box71
 \FV@TmpLength=\skip55
-\c@FV@HighlightLinesStart=\count365
-\c@FV@HighlightLinesStop=\count366
-\FV@LoopCount=\count367
-\FV@NCharsBox=\box74
-\FV@BreakIndent=\dimen293
-\FV@BreakIndentNChars=\count368
-\FV@BreakSymbolSepLeft=\dimen294
-\FV@BreakSymbolSepLeftNChars=\count369
-\FV@BreakSymbolSepRight=\dimen295
-\FV@BreakSymbolSepRightNChars=\count370
-\FV@BreakSymbolIndentLeft=\dimen296
-\FV@BreakSymbolIndentLeftNChars=\count371
-\FV@BreakSymbolIndentRight=\dimen297
-\FV@BreakSymbolIndentRightNChars=\count372
-\c@FancyVerbLineBreakLast=\count373
-\FV@LineBox=\box75
-\FV@LineIndentBox=\box76
-\c@FV@BreakBufferDepth=\count374
-\FV@LineWidth=\dimen298
+\c@FV@HighlightLinesStart=\count355
+\c@FV@HighlightLinesStop=\count356
+\FV@LoopCount=\count357
+\FV@NCharsBox=\box72
+\FV@BreakIndent=\dimen289
+\FV@BreakIndentNChars=\count358
+\FV@BreakSymbolSepLeft=\dimen290
+\FV@BreakSymbolSepLeftNChars=\count359
+\FV@BreakSymbolSepRight=\dimen291
+\FV@BreakSymbolSepRightNChars=\count360
+\FV@BreakSymbolIndentLeft=\dimen292
+\FV@BreakSymbolIndentLeftNChars=\count361
+\FV@BreakSymbolIndentRight=\dimen293
+\FV@BreakSymbolIndentRightNChars=\count362
+\c@FancyVerbLineBreakLast=\count363
+\FV@LineBox=\box73
+\FV@LineIndentBox=\box74
+\c@FV@BreakBufferDepth=\count364
+\FV@LineWidth=\dimen294
 ) (/usr/share/texmf-dist/tex/latex/latex2pydata/latex2pydata.sty
 Package: latex2pydata 2026/02/25 v0.7.0 latex2pydata - write data to file in Python literal format
 ) (/usr/share/texmf-dist/tex/latex/tools/shellesc.sty
@@ -589,85 +563,46 @@ Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 77.
 ) (/usr/share/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count375
+\c@float@type=\count365
 \float@exts=\toks40
-\float@box=\box77
+\float@box=\box75
 \@float@everytoks=\toks41
-\@floatcapt=\box78
+\@floatcapt=\box76
 )
-\c@minted@FancyVerbLineTemp=\count376
+\c@minted@FancyVerbLineTemp=\count366
 \@float@every@listing=\toks42
-\c@listing=\count377
-) (/usr/share/texmf-dist/tex/latex/pgfplots/pgfplots.sty (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
-Package: pgfplots 2025/08/14 v1.18.2 Data Visualization (1.18.2)
- (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
-\t@pgfplots@toka=\toks43
-\t@pgfplots@tokb=\toks44
-\t@pgfplots@tokc=\toks45
-\pgfplots@tmpa=\dimen299
-\c@pgfplots@coordindex=\count378
-\c@pgfplots@scanlineindex=\count379
- (/usr/share/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (/usr/share/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfutil-common-lists.tex)) (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex (/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count380
-) (/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex
-\c@pgfplotstable@counta=\count381
-\t@pgfplotstable@a=\toks46
-) (/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex)) (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count382
- (/usr/share/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen300
-\pgfdecoratedremainingdistance=\dimen301
-\pgfdecoratedinputsegmentcompleteddistance=\dimen302
-\pgfdecoratedinputsegmentremainingdistance=\dimen303
-\pgf@decorate@distancetomove=\dimen304
-\pgf@decorate@repeatstate=\count383
-\pgfdecorationsegmentamplitude=\dimen305
-\pgfdecorationsegmentlength=\dimen306
-)
-\tikz@lib@dec@box=\box79
-) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex (/usr/share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (/usr/share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (/usr/share/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.contourlua.code.tex)
-\pgfplots@numplots=\count384
-\pgfplots@xmin@reg=\dimen307
-\pgfplots@xmax@reg=\dimen308
-\pgfplots@ymin@reg=\dimen309
-\pgfplots@ymax@reg=\dimen310
-\pgfplots@zmin@reg=\dimen311
-\pgfplots@zmax@reg=\dimen312
-) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryplotmarks.code.tex
-File: tikzlibraryplotmarks.code.tex 2025-08-29 v3.1.11a (3.1.11a)
- (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
-File: pgflibraryplotmarks.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+\c@listing=\count367
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
 Package: tcolorbox 2025/11/28 version 6.9.0 text color boxes
  (/usr/share/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks47
-\verbatim@line=\toks48
+\every@verbatim=\toks43
+\verbatim@line=\toks44
 \verbatim@in@stream=\read4
 ) (/usr/share/texmf-dist/tex/latex/environ/environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
  (/usr/share/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
-\tcb@titlebox=\box80
-\tcb@upperbox=\box81
-\tcb@lowerbox=\box82
-\tcb@phantombox=\box83
-\c@tcbbreakpart=\count385
-\c@tcblayer=\count386
-\c@tcolorbox@number=\count387
-\l__tcobox_tmpa_box=\box84
-\l__tcobox_tmpa_dim=\dimen313
+\tcb@titlebox=\box77
+\tcb@upperbox=\box78
+\tcb@lowerbox=\box79
+\tcb@phantombox=\box80
+\c@tcbbreakpart=\count368
+\c@tcblayer=\count369
+\c@tcolorbox@number=\count370
+\l__tcobox_tmpa_box=\box81
+\l__tcobox_tmpa_dim=\dimen295
+\tcb@temp=\box82
+\tcb@temp=\box83
+\tcb@temp=\box84
 \tcb@temp=\box85
-\tcb@temp=\box86
-\tcb@temp=\box87
-\tcb@temp=\box88
  (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
 Library (tcolorbox): 'tcbraster.code.tex' version '6.9.0'
-\c@tcbrastercolumn=\count388
-\c@tcbrasterrow=\count389
-\c@tcbrasternum=\count390
-\c@tcbraster=\count391
+\c@tcbrastercolumn=\count371
+\c@tcbrasterrow=\count372
+\c@tcbrasternum=\count373
+\c@tcbraster=\count374
 ) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
 Library (tcolorbox): 'tcbskins.code.tex' version '6.9.0'
 (/usr/share/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty
@@ -676,7 +611,7 @@ Package: tikzfill.image 2023/08/08 v1.0.1 Image filling library for TikZ
 Package: tikzfill-common 2023/08/08 v1.0.1 Auxiliary code for tikzfill
 ) (/usr/share/texmf-dist/tex/latex/tikzfill/tikzlibraryfill.image.code.tex
 File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
-\l__tikzfill_img_box=\box89
+\l__tikzfill_img_box=\box86
 )) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
 Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.9.0'
 )) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
@@ -685,19 +620,19 @@ Library (tcolorbox): 'tcbbreakable.code.tex' version '6.9.0'
 Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
 )
 Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
-\tcb@testbox=\box90
-\tcb@totalupperbox=\box91
-\tcb@totallowerbox=\box92
+\tcb@testbox=\box87
+\tcb@totalupperbox=\box88
+\tcb@totallowerbox=\box89
 ) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
 Library (tcolorbox): 'tcbhooks.code.tex' version '6.9.0'
 ) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
 Library (tcolorbox): 'tcbtheorems.code.tex' version '6.9.0'
 ) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
 Library (tcolorbox): 'tcbfitting.code.tex' version '6.9.0'
-\tcbfitdim=\dimen314
-\tcb@lowerfitdim=\dimen315
-\tcb@upperfitdim=\dimen316
-\tcb@cur@hbadness=\count392
+\tcbfitdim=\dimen296
+\tcb@lowerfitdim=\dimen297
+\tcb@upperfitdim=\dimen298
+\tcb@cur@hbadness=\count375
 ) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.tex
 Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.9.0'
 (/usr/share/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
@@ -707,7 +642,7 @@ Library (tcolorbox): 'tcblistingscore.code.tex' version '6.9.0'
 (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
 Library (tcolorbox): 'tcbprocessing.code.tex' version '6.9.0'
 )
-\c@tcblisting=\count393
+\c@tcblisting=\count376
 )) (/usr/share/texmf-dist/tex/latex/listingsutf8/listingsutf8.sty
 Package: listingsutf8 2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
 )) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbexternal.code.tex
@@ -724,443 +659,230 @@ File: pgflibraryfadings.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 Library (tcolorbox): 'tcbposter.code.tex' version '6.9.0'
 )) (/usr/share/texmf-dist/tex/latex/lettrine/lettrine.sty
 File: lettrine.sty 2025-12-06 v2.83 (Daniel Flipo)
-\c@DefaultLines=\count394
-\c@DefaultDepth=\count395
-\DefaultFindent=\dimen317
-\DefaultNindent=\dimen318
-\DefaultSlope=\dimen319
-\DiscardVskip=\dimen320
-\L@lbox=\box93
-\c@L@lines=\count396
-\c@L@depth=\count397
-\L@Pindent=\dimen321
-\L@Findent=\dimen322
-\L@Nindent=\dimen323
-\L@lraise=\dimen324
-\L@first=\dimen325
-\L@next=\dimen326
-\L@slope=\dimen327
-\L@height=\dimen328
-\L@novskip=\dimen329
-\L@target@ht=\dimen330
-\L@target@dp=\dimen331
-\L@target@tht=\dimen332
-\LettrineWidth=\dimen333
-\LettrineHeight=\dimen334
-\LettrineDepth=\dimen335
-\L@finalht=\dimen336
-\L@finaldp=\dimen337
+\c@DefaultLines=\count377
+\c@DefaultDepth=\count378
+\DefaultFindent=\dimen299
+\DefaultNindent=\dimen300
+\DefaultSlope=\dimen301
+\DiscardVskip=\dimen302
+\L@lbox=\box90
+\c@L@lines=\count379
+\c@L@depth=\count380
+\L@Pindent=\dimen303
+\L@Findent=\dimen304
+\L@Nindent=\dimen305
+\L@lraise=\dimen306
+\L@first=\dimen307
+\L@next=\dimen308
+\L@slope=\dimen309
+\L@height=\dimen310
+\L@novskip=\dimen311
+\L@target@ht=\dimen312
+\L@target@dp=\dimen313
+\L@target@tht=\dimen314
+\LettrineWidth=\dimen315
+\LettrineHeight=\dimen316
+\LettrineDepth=\dimen317
+\L@finalht=\dimen318
+\L@finaldp=\dimen319
 
 Loading lettrine.cfg
 (/usr/share/texmf-dist/tex/latex/lettrine/lettrine.cfg)
-\Lettrine@tweaks=\toks49
-\Llist@everypar=\toks50
+\Lettrine@tweaks=\toks45
+\Llist@everypar=\toks46
 ) (/usr/share/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2020/02/08 v1.2c extra appendix facilities
-\c@@pps=\count398
-\c@@ppsavesec=\count399
-\c@@ppsaveapp=\count400
-) (/usr/share/texmf-dist/tex/latex/glossaries-extra/glossaries-extra.sty
-Package: glossaries-extra 2025/11/03 v1.9 (NLCT)
- (/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2025/11/04 v2.10 package option processing (HA)
- (/usr/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/share/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks51
-\XKV@tempa@toks=\toks52
-\XKV@tempb@toks=\toks53
-)
-\XKV@depth=\count401
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-)) (/usr/share/texmf-dist/tex/latex/glossaries/base/glossaries.sty
-Package: glossaries 2025/11/09 v4.9 (NLCT)
- (/usr/share/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
-) (/usr/share/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
-Package: mfirstuc 2025/04/03 v2.09 (NLCT)
-\@glsmfirst=\toks54
-\@glsmrest=\toks55
-) (/usr/share/texmf-dist/tex/latex/xfor/xfor.sty
-Package: xfor 2009/02/05 v1.05 (NLCT)
-) (/usr/share/texmf-dist/tex/latex/datatool/datatool-base.sty
-Package: datatool-base 2025/12/04 v3.4.3 (NLCT)
- (/usr/share/texmf-dist/tex/latex/tracklang/tracklang.sty
-Package: tracklang 2025/03/11 v1.6.6 (NLCT) Track Languages
- (/usr/share/texmf-dist/tex/generic/tracklang/tracklang.tex))
-\l__datatool_tmpa_int=\count402
-\l__datatool_tmpb_int=\count403
-\l__datatool_tmpc_int=\count404
-\l__datatool_tmpd_int=\count405
-\l__datatool_count_int=\count406
-\l__datatool_tmp_datatype_int=\count407
-\l__datatool_tmpa_dim=\dimen338
-\l__datatool_tmpb_dim=\dimen339
- (/usr/share/texmf-dist/tex/latex/datatool/datatool-l3fp.def
-File: datatool-l3fp.def 2025/12/04 v3.4.3 (NLCT)
-)
-\@dtl@toks=\toks56
-\@dtl@tmpcount=\count408
-\dtl@tmplength=\skip56
-\l__datatool_measure_box=\box94
-\dtl@sortresult=\count409
- (/usr/share/texmf-dist/tex/latex/datatool/datatool-utf8.ldf
-File: datatool-utf8.ldf 2025/12/04 v3.4.3 (NLCT)
-)
-\@dtl@datatype=\count410
-\c_datatool_unknown_int=\count411
-\l__datatool_year_int=\count412
-\l__datatool_month_int=\count413
-\l__datatool_day_int=\count414
-\l__datatool_hour_int=\count415
-\l__datatool_minute_int=\count416
-\l__datatool_second_int=\count417
-\l__datatool_tzhour_int=\count418
-\l__datatool_tzminute_int=\count419
-\l__datatool_julian_int=\count420
-\l__datatool_local_julian_int=\count421
-\l__datatool_prefix_int=\count422
-\l__datatool_suffix_int=\count423
-\@dtl@foreach@level=\count424
-\dtl@codeA=\count425
-\dtl@codeB=\count426
-)
-\gls@level=\count427
-\@gls@tmpb=\toks57
-\gls@tmplen=\skip57
-\l__glossaries_tmpa_dim=\dimen340
-\l__glossaries_tmpb_dim=\dimen341
-\glskeylisttok=\toks58
-\glslabeltok=\toks59
-\glsshorttok=\toks60
-\glslongtok=\toks61
- (/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.sty
-Package: glossary-hypernav 2025/11/09 v4.9 (NLCT)
-) (/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-list.sty
-Package: glossary-list 2025/11/09 v4.9 (NLCT)
-\glslistdottedwidth=\skip58
-) (/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-long.sty
-Package: glossary-long 2025/11/09 v4.9 (NLCT)
- (/usr/share/texmf-dist/tex/latex/tools/longtable.sty
-Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
-\LTleft=\skip59
-\LTright=\skip60
-\LTpre=\skip61
-\LTpost=\skip62
-\LTchunksize=\count428
-\LTcapwidth=\dimen342
-\LT@head=\box95
-\LT@firsthead=\box96
-\LT@foot=\box97
-\LT@lastfoot=\box98
-\LT@gbox=\box99
-\LT@cols=\count429
-\LT@rows=\count430
-\c@LT@tables=\count431
-\c@LT@chunks=\count432
-\LT@p@ftn=\toks62
-)
-\glsdescwidth=\skip63
-\glspagelistwidth=\skip64
-) (/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-super.sty
-Package: glossary-super 2025/11/09 v4.9 (NLCT)
- (/usr/share/texmf-dist/tex/latex/supertabular/supertabular.sty
-Package: supertabular 2025/06/26 v4.2d the supertabular environment
-\c@tracingst=\count433
-\ST@wd=\dimen343
-\ST@rightskip=\skip65
-\ST@leftskip=\skip66
-\ST@parfillskip=\skip67
-\ST@pageleft=\dimen344
-\ST@headht=\dimen345
-\ST@tailht=\dimen346
-\ST@pagesofar=\dimen347
-\ST@pboxht=\dimen348
-\ST@rowht=\dimen349
-\ST@prevht=\dimen350
-\ST@toadd=\dimen351
-\ST@dimen=\dimen352
-\ST@pbox=\box100
-)) (/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
-Package: glossary-tree 2025/11/09 v4.9 (NLCT)
-\l__glossaries_tree_max_known_level_int=\count434
-\l__glossaries_tree_offset_dim=\dimen353
-\l__glossaries_tree_namewidth_dim=\dimen354
-\l__glossaries_tree_symbolwidth_dim=\dimen355
-\l__glossaries_tree_prenamesym_width_dim=\dimen356
-\l__glossaries_tree_presubnamesym_width_dim=\dimen357
-\l__glossaries_tree_namewidth_padding_dim=\dimen358
-\l__glossaries_tree_symbolwidth_padding_dim=\dimen359
-\l__glossaries_tree_namesymbolwidth_dim=\dimen360
-\l__glossaries_tree_namesymbolwidth_padding_dim=\dimen361
-\l__glossaries_tree_level_int=\count435
-\glstreeindent=\skip68
-))
-\@glsxtr@leveloffset=\count436
-\glsxtrresourcecount=\count437
-\@glsxtrnewgls@inner=\count438
-\glsshortpltok=\toks63
-\glslongpltok=\toks64
- (/usr/share/texmf-dist/tex/latex/glossaries-extra/glossaries-extra-abbrstyles.def
-File: glossaries-extra-abbrstyles.def 2025/11/03 v1.9 (NLCT)
-)
-\mglselementindex=\count439
+\c@@pps=\count381
+\c@@ppsavesec=\count382
+\c@@ppsaveapp=\count383
 ) (/usr/share/texmf-dist/tex/latex/fncychap/fncychap.sty
 Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
-\RW=\skip69
-\mylen=\skip70
-\myhi=\skip71
-\px=\skip72
-\py=\skip73
-\pyy=\skip74
-\pxx=\skip75
+\RW=\skip56
+\mylen=\skip57
+\myhi=\skip58
+\px=\skip59
+\py=\skip60
+\pyy=\skip61
+\pxx=\skip62
 ) (/usr/share/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 2023/07/04 v3.00 enumerate extensions (DPC)
-\@enLab=\toks65
+\@enLab=\toks47
 ) (/usr/share/texmf-dist/tex/latex/tools/array.sty
 Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
-\col@sep=\dimen362
-\ar@mcellbox=\box101
-\extrarowheight=\dimen363
-\NC@list=\toks66
-\extratabsurround=\skip76
-\backup@length=\skip77
-\ar@cellbox=\box102
-) (/usr/share/texmf-dist/tex/latex/animate/animate.sty
-Package: animate 2024/10/14 PDF & SVG animations from files and inline graphics
- (/usr/share/texmf-dist/tex/latex/oberdiek/ifdraft.sty
-Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
-) (/usr/share/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
-\calc@Acount=\count440
-\calc@Bcount=\count441
-\calc@Adimen=\dimen364
-\calc@Bdimen=\dimen365
-\calc@Askip=\skip78
-\calc@Bskip=\skip79
-LaTeX Info: Redefining \setlength on input line 86.
-LaTeX Info: Redefining \addtolength on input line 87.
-\calc@Ccount=\count442
-\calc@Cskip=\skip80
-) (/usr/share/texmf-dist/tex/latex/zref/zref-abspage.sty
-Package: zref-abspage 2025-06-08 v2.36 Module abspage for zref (HO)
- (/usr/share/texmf-dist/tex/latex/zref/zref-base.sty
-Package: zref-base 2025-06-08 v2.36 Module base for zref (HO)
- (/usr/share/texmf-dist/tex/latex/auxhook/auxhook.sty
-Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-)
-Package zref Info: New property list: main on input line 767.
-Package zref Info: New property: default on input line 768.
-Package zref Info: New property: page on input line 769.
-)
-\c@abspage=\count443
-Package zref Info: New property: abspage on input line 67.
-)
-\@anim@box=\box103
-\@anim@measbox=\box104
-\@anim@tmpdima=\dimen366
-\@anim@tmpdimb=\dimen367
-\@anim@num=\count444
-\@anim@curframe=\count445
-\@anim@curframe@zb=\count446
-\@anim@resizeflags=\count447
-\@anim@skipfram=\count448
-\@anim@mulframecnt=\count449
-\@anim@@tmlnfile=\read5
-\@anim@tmpcnt=\count450
-\c@@anim@ltxcnt=\count451
-\@anim@curlayer=\count452
-\@anim@lineno=\count453
-\@anim@curfield=\count454
-\@anim@@resizeflags=\count455
+\col@sep=\dimen320
+\ar@mcellbox=\box91
+\extrarowheight=\dimen321
+\NC@list=\toks48
+\extratabsurround=\skip63
+\backup@length=\skip64
+\ar@cellbox=\box92
 ) (/usr/share/texmf-dist/tex/generic/witharrows/witharrows.sty (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfarrowinset=\dimen368
-\pgfarrowlength=\dimen369
-\pgfarrowwidth=\dimen370
-\pgfarrowlinewidth=\dimen371
+\pgfarrowinset=\dimen322
+\pgfarrowlength=\dimen323
+\pgfarrowwidth=\dimen324
+\pgfarrowlinewidth=\dimen325
 ) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulebending.code.tex
 File: pgfmodulebending.code.tex 2025-08-29 v3.1.11a (3.1.11a)
  (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulenonlineartransformations.code.tex
 File: pgfmodulenonlineartransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgftransformnonlinearflatness=\dimen372
+\pgftransformnonlinearflatness=\dimen326
 ) (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibrarycurvilinear.code.tex
 File: pgflibrarycurvilinear.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@curvilinear@time@a=\dimen373
-\pgf@curvilinear@length@a=\dimen374
-\pgf@curvilinear@length@b=\dimen375
-\pgf@curvilinear@length@c=\dimen376
-\pgf@curvilinear@length@d=\dimen377
+\pgf@curvilinear@time@a=\dimen327
+\pgf@curvilinear@length@a=\dimen328
+\pgf@curvilinear@length@b=\dimen329
+\pgf@curvilinear@length@c=\dimen330
+\pgf@curvilinear@length@d=\dimen331
 )
-\pgf@arrows@the@rigidity=\dimen378
+\pgf@arrows@the@rigidity=\dimen332
 ) (/usr/share/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty (/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2026-01-19 L3 programming layer (loader) 
-)
+ (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count384
+))
 Package: l3keys2e 2025-10-09 LaTeX2e option processing using LaTeX3 keys
 )
 Package: witharrows 2024/10/19 v2.9a Draws arrows for explanations on the right
  (/usr/share/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box105
-\sift@deathcycles=\count456
-\@vwid@loff=\dimen379
-\@vwid@roff=\dimen380
+\@vwid@box=\box93
+\sift@deathcycles=\count385
+\@vwid@loff=\dimen333
+\@vwid@roff=\dimen334
 )
 ==> First Aid for varwidth.sty applied!
-\g__witharrows_last_env_int=\count457
-\l__witharrows_pos_env_int=\count458
-\l__witharrows_pos_arrow_int=\count459
-\g__witharrows_arrow_int=\count460
-\g__witharrows_line_int=\count461
-\g__witharrows_col_int=\count462
-\g__witharrows_static_col_int=\count463
-\l__witharrows_nb_cols_int=\count464
-\l__witharrows_arrow_width_dim=\dimen381
-\l__witharrows_up_and_down_radius_dim=\dimen382
-\l__witharrows_xoffset_for_o_arrows_dim=\dimen383
-\l__witharrows_max_length_of_arrow_dim=\dimen384
-\l__witharrows_ygap_dim=\dimen385
-\l__witharrows_ystart_dim=\dimen386
-\l__witharrows_xoffset_dim=\dimen387
-\l__witharrows_interline_skip=\skip81
-\l__witharrows_start_adjust_dim=\dimen388
-\l__witharrows_end_adjust_dim=\dimen389
-\l__witharrows_mathindent_skip=\skip82
+\g__witharrows_last_env_int=\count386
+\l__witharrows_pos_env_int=\count387
+\l__witharrows_pos_arrow_int=\count388
+\g__witharrows_arrow_int=\count389
+\g__witharrows_line_int=\count390
+\g__witharrows_col_int=\count391
+\g__witharrows_static_col_int=\count392
+\l__witharrows_nb_cols_int=\count393
+\l__witharrows_arrow_width_dim=\dimen335
+\l__witharrows_up_and_down_radius_dim=\dimen336
+\l__witharrows_xoffset_for_o_arrows_dim=\dimen337
+\l__witharrows_max_length_of_arrow_dim=\dimen338
+\l__witharrows_ygap_dim=\dimen339
+\l__witharrows_ystart_dim=\dimen340
+\l__witharrows_xoffset_dim=\dimen341
+\l__witharrows_interline_skip=\skip65
+\l__witharrows_start_adjust_dim=\dimen342
+\l__witharrows_end_adjust_dim=\dimen343
+\l__witharrows_mathindent_skip=\skip66
 ) (/usr/share/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
  (/usr/share/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen390
-\captionmargin=\dimen391
-\caption@leftmargin=\dimen392
-\caption@rightmargin=\dimen393
-\caption@width=\dimen394
-\caption@indent=\dimen395
-\caption@parindent=\dimen396
-\caption@hangindent=\dimen397
+\caption@tempdima=\dimen344
+\captionmargin=\dimen345
+\caption@leftmargin=\dimen346
+\caption@rightmargin=\dimen347
+\caption@width=\dimen348
+\caption@indent=\dimen349
+\caption@parindent=\dimen350
+\caption@hangindent=\dimen351
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count465
-\c@continuedfloat=\count466
+\c@caption@flags=\count394
+\c@continuedfloat=\count395
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
-Package caption Info: longtable package is loaded.
- (/usr/share/texmf-dist/tex/latex/caption/ltcaption.sty
-Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
-)
-Package caption Info: supertabular package is loaded.
 ) (/usr/share/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count467
+\c@subfigure=\count396
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count468
+\c@subtable=\count397
 ) (/usr/share/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
 ) (/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
-\f@nch@headwidth=\skip83
-\f@nch@offset@elh=\skip84
-\f@nch@offset@erh=\skip85
-\f@nch@offset@olh=\skip86
-\f@nch@offset@orh=\skip87
-\f@nch@offset@elf=\skip88
-\f@nch@offset@erf=\skip89
-\f@nch@offset@olf=\skip90
-\f@nch@offset@orf=\skip91
-\f@nch@height=\skip92
-\f@nch@footalignment=\skip93
-\f@nch@widthL=\skip94
-\f@nch@widthC=\skip95
-\f@nch@widthR=\skip96
-\@temptokenb=\toks67
+\f@nch@headwidth=\skip67
+\f@nch@offset@elh=\skip68
+\f@nch@offset@erh=\skip69
+\f@nch@offset@olh=\skip70
+\f@nch@offset@orh=\skip71
+\f@nch@offset@elf=\skip72
+\f@nch@offset@erf=\skip73
+\f@nch@offset@olf=\skip74
+\f@nch@offset@orf=\skip75
+\f@nch@height=\skip76
+\f@nch@footalignment=\skip77
+\f@nch@widthL=\skip78
+\f@nch@widthC=\skip79
+\f@nch@widthR=\skip80
+\@temptokenb=\toks49
 ) (/usr/share/texmf-dist/tex/latex/mwe/mwe.sty
 Package: mwe 2018/03/30 v0.5 Package to support minimal working examples (MWE)
  (/usr/share/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count469
-\l__lipsum_a_int=\count470
-\l__lipsum_b_int=\count471
+\g__lipsum_par_int=\count398
+\l__lipsum_a_int=\count399
+\l__lipsum_b_int=\count400
  (/usr/share/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex)) (/usr/share/texmf-dist/tex/latex/blindtext/blindtext.sty
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
  (/usr/share/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count472
-\c@Blindtext=\count473
-\c@blind@countparstart=\count474
-\blind@countxx=\count475
-\blindtext@numBlindtext=\count476
-\blind@countyy=\count477
-\c@blindlist=\count478
-\c@blindlistlevel=\count479
-\c@blindlist@level=\count480
-\blind@listitem=\count481
-\c@blind@listcount=\count482
-\c@blind@levelcount=\count483
-\blind@mathformula=\count484
-\blind@Mathformula=\count485
-\c@blind@randomcount=\count486
-\c@blind@randommax=\count487
-\c@blind@pangramcount=\count488
-\c@blind@pangrammax=\count489
+\c@blindtext=\count401
+\c@Blindtext=\count402
+\c@blind@countparstart=\count403
+\blind@countxx=\count404
+\blindtext@numBlindtext=\count405
+\blind@countyy=\count406
+\c@blindlist=\count407
+\c@blindlistlevel=\count408
+\c@blindlist@level=\count409
+\blind@listitem=\count410
+\c@blind@listcount=\count411
+\c@blind@levelcount=\count412
+\blind@mathformula=\count413
+\blind@Mathformula=\count414
+\c@blind@randomcount=\count415
+\c@blind@randommax=\count416
+\c@blind@pangramcount=\count417
+\c@blind@pangrammax=\count418
 )) (/usr/share/texmf-dist/tex/latex/lastpage/lastpage.sty
 Package: lastpage 2025/08/14 v2.1h lastpage: 2.09 or 2e? (HMM)
  (/usr/share/texmf-dist/tex/latex/lastpage/lastpage2e.sty
 Package: lastpage2e 2025/08/14 v2.1h Decide which 2e lastpage version to use (HMM)
  (/usr/share/texmf-dist/tex/latex/lastpage/lastpagemodern.sty
 Package: lastpagemodern 2025-08-14 v2.1h Refers to last page's name (HMM; JPG)
-\c@lastpagecount=\count490
+\c@lastpagecount=\count419
 ) 
-)) (/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty
-Package: titlesec 2025/01/04 v2.17 Sectioning titles
-\ttl@box=\box106
-\beforetitleunit=\skip97
-\aftertitleunit=\skip98
-\ttl@plus=\dimen398
-\ttl@minus=\dimen399
-\ttl@toksa=\toks68
-\titlewidth=\dimen400
-\titlewidthlast=\dimen401
-\titlewidthfirst=\dimen402
-) (/usr/share/texmf-dist/tex/latex/titlesec/titletoc.sty
-Package: titletoc 2025/01/04 v2.17 TOC entries
-\ttl@leftsep=\dimen403
-) (/usr/share/texmf-dist/tex/latex/cfr-initials/Typocaps.sty
-Package: Typocaps 2007/11/24 v1.01 Typocaps CFR
- (/usr/share/texmf-dist/tex/latex/initials/Typocaps.fd
-File: Typocaps.fd 2003/04/02 Font definition file for U/Typocaps
-)) (/usr/share/texmf-dist/tex/latex/cfr-initials/Starburst.sty
-Package: Starburst 2007/11/24 v1.01 Starburst CFR
- (/usr/share/texmf-dist/tex/latex/initials/Starburst.fd
-File: Starburst.fd 2003/04/02 Font definition file for U/Starburst
 ))
-\c@tcb@cnt@proposition=\count491
-\c@tcb@cnt@exercice=\count492
+\c@tcb@cnt@proposition=\count420
  (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2025/11/14 1.11b listings language file
+) (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
 ) (/usr/share/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
 ) (./report.aux (./title.aux))
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 195.
-LaTeX Font Info:    ... okay on input line 195.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 195.
-LaTeX Font Info:    ... okay on input line 195.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 195.
-LaTeX Font Info:    ... okay on input line 195.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 195.
-LaTeX Font Info:    ... okay on input line 195.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 195.
-LaTeX Font Info:    ... okay on input line 195.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 195.
-LaTeX Font Info:    ... okay on input line 195.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 195.
-LaTeX Font Info:    ... okay on input line 195.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 195.
-LaTeX Font Info:    ... okay on input line 195.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 195.
-LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1182,7 +904,7 @@ LaTeX Font Info:    ... okay on input line 195.
 * \headheight=0.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
-* \footskip=52.33696pt
+* \footskip=30.0pt
 * \marginparwidth=56.9055pt
 * \marginparsep=11.0pt
 * \columnsep=10.0pt
@@ -1196,46 +918,41 @@ LaTeX Font Info:    ... okay on input line 195.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 195.
+Package hyperref Info: Link coloring ON on input line 80.
 (./report.out) (./report.out)
 \@outlinefile=\write5
 \openout5 = `report.out'.
 
  (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count493
-\scratchdimen=\dimen404
-\scratchbox=\box107
-\nofMPsegments=\count494
-\nofMParguments=\count495
-\everyMPshowfont=\toks69
-\MPscratchCnt=\count496
-\MPscratchDim=\dimen405
-\MPnumerator=\count497
-\makeMPintoPDFobject=\count498
-\everyMPtoPDFconversion=\toks70
+\scratchcounter=\count421
+\scratchdimen=\dimen352
+\scratchbox=\box94
+\nofMPsegments=\count422
+\nofMParguments=\count423
+\everyMPshowfont=\toks50
+\MPscratchCnt=\count424
+\MPscratchDim=\dimen353
+\MPnumerator=\count425
+\makeMPintoPDFobject=\count426
+\everyMPtoPDFconversion=\toks51
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-\c@lstlisting=\count499
-
-
-Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
- on input line 195.
-
-(/usr/share/texmf-dist/tex/latex/base/inputenc.sty
+\c@lstlisting=\count427
+ (/usr/share/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
-\inpenc@prehook=\toks71
-\inpenc@posthook=\toks72
+\inpenc@prehook=\toks52
+\inpenc@posthook=\toks53
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 \openout2 = `title.aux'.
 
- (./title.Tex
+ (./title.tex
 LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1259,10 +976,10 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 16--17
 [][] 
  []
 
-<photos/ipsalogo.png, id=51, 1231.2399pt x 944.328pt>
+<photos/ipsalogo.png, id=91, 1231.2399pt x 944.328pt>
 File: photos/ipsalogo.png Graphic file (type png)
 <use photos/ipsalogo.png>
-Package pdftex.def Info: photos/ipsalogo.png  used on input line 49.
+Package pdftex.def Info: photos/ipsalogo.png  used on input line 43.
 (pdftex.def)             Requested size: 61.5656pt x 47.21916pt.
 [1
 
@@ -1271,68 +988,108 @@ Package pdftex.def Info: photos/ipsalogo.png  used on input line 49.
 \tf@toc=\write6
 \openout6 = `report.toc'.
 
-File: photos/ipsalogo.png Graphic file (type png)
-<use photos/ipsalogo.png>
-Package pdftex.def Info: photos/ipsalogo.png  used on input line 212.
-(pdftex.def)             Requested size: 61.5656pt x 47.21916pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.212 \chapter
-              *{Introduction} [1
+l.97 \chapter
+             *{Introduction} [1
 \def\@LN@column{1}
 
 
 
 ]
-File: photos/ipsalogo.png Graphic file (type png)
-<use photos/ipsalogo.png>
-Package pdftex.def Info: photos/ipsalogo.png  used on input line 223.
-(pdftex.def)             Requested size: 61.5656pt x 47.21916pt.
- (/usr/share/texmf-dist/tex/generic/pgfornament/vectorian/vectorian61.pgf) (/usr/share/texmf-dist/tex/generic/pgfornament/vectorian/vectorian61.pgf) (/usr/share/texmf-dist/tex/generic/pgfornament/vectorian/vectorian61.pgf) (/usr/share/texmf-dist/tex/generic/pgfornament/vectorian/vectorian61.pgf) [2
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
+
+ []
+
+(/usr/share/texmf-dist/tex/generic/pgfornament/vectorian/vectorian61.pgf) (/usr/share/texmf-dist/tex/generic/pgfornament/vectorian/vectorian61.pgf) (/usr/share/texmf-dist/tex/generic/pgfornament/vectorian/vectorian61.pgf) (/usr/share/texmf-dist/tex/generic/pgfornament/vectorian/vectorian61.pgf) [2
 
 ]
 CHAPITRE I.
-LaTeX Font Info:    Trying to load font information for OT1+pzc on input line 226.
+LaTeX Font Info:    Trying to load font information for OT1+pzc on input line 115.
 (/usr/share/texmf-dist/tex/latex/psnfss/ot1pzc.fd
 File: ot1pzc.fd 2020/03/25 font definitions for OT1/pzc.
 )
 LaTeX Font Info:    Font shape `OT1/pzc/m/n' in size <76> not available
-(Font)              Font shape `OT1/pzc/m/it' tried instead on input line 226.
+(Font)              Font shape `OT1/pzc/m/it' tried instead on input line 115.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 226--226
+Overfull \hbox (10.0pt too wide) in paragraph at lines 115--115
 [][][][][][][][][]  
  []
 
-\g__tcobox_out_iow=\write7
-\openout7 = `report.listing'.
 
-(/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2025/11/14 1.11b listings language file
-) (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
-)
-LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 251.
- (./report.listing)
-\openout7 = `report.listing'.
-
- (./report.listing)
-File: photos/ipsalogo.png Graphic file (type png)
-<use photos/ipsalogo.png>
-Package pdftex.def Info: photos/ipsalogo.png  used on input line 283.
-(pdftex.def)             Requested size: 61.5656pt x 47.21916pt.
- [3
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 117.
 
 
-{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}]
-File: photos/ipsalogo.png Graphic file (type png)
-<use photos/ipsalogo.png>
-Package pdftex.def Info: photos/ipsalogo.png  used on input line 285.
-(pdftex.def)             Requested size: 61.5656pt x 47.21916pt.
- [4]
-runsystem(latexminted cleantemp  --timestamp 20260407091941 E98D2F001DA5678B39482EFBDF5770DC)...executed safely (allowed).
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\tau' on input line 117.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 117.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 117.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
+
+ []
+
+
+Overfull \hbox (9.07895pt too wide) in paragraph at lines 131--132
+[]\T1/cmr/m/n/10 All task prop-er-ties (Com-pu-ta-tion Time $\OML/cmm/m/it/10 C[]$ \T1/cmr/m/n/10 and Pe-riod $\OML/cmm/m/it/10 T[]$\T1/cmr/m/n/10 ) from the ini-tial dataset were [].
+ []
+
+[3
+
+
+{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+CHAPITRE II.
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 158--158
+[][][][][][][][][]  
+ []
+
+[4
+
+]
+CHAPITRE III.
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 202--202
+[][][][][][][][][]  
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 285.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\tau' on input line 285.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 285.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 285.
+
+[5
+
+] [6] [7
+
+]
+runsystem(latexminted cleantemp  --timestamp 20260428225331 E98D2F001DA5678B39482EFBDF5770DC)...executed safely (allowed).
 
  
 enddocument/afterlastpage (AED): lastpage setting LastPage.
@@ -1342,21 +1099,21 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 097DA135A0369F826E44A6C74BE7D391;231.
+(rerunfilecheck)             Checksum: 39C312A5D0A2CBD6A4EB0758C7AEF4E1;2499.
  ) 
 Here is how much of TeX's memory you used:
- 59181 strings out of 469515
- 1392560 string characters out of 5470808
- 2603843 words of memory out of 5000000
- 86879 multiletter control sequences out of 15000+600000
- 641697 words of font info for 77 fonts, out of 8000000 for 9000
+ 36416 strings out of 469515
+ 771308 string characters out of 5470808
+ 1579024 words of memory out of 5000000
+ 64410 multiletter control sequences out of 15000+600000
+ 647717 words of font info for 93 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 117i,15n,121p,2591b,1799s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf-dist/fonts/type1/urw/zapfchan/uzcmi8a.pfb>
-Output written on report.pdf (5 pages, 471120 bytes).
+ 117i,13n,121p,654b,1314s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf-dist/fonts/type1/urw/zapfchan/uzcmi8a.pfb>
+Output written on report.pdf (8 pages, 564581 bytes).
 PDF statistics:
- 203 PDF objects out of 1000 (max. 8388607)
- 148 compressed objects within 2 object streams
- 56 named destinations out of 1000 (max. 500000)
- 190 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 247 PDF objects out of 1000 (max. 8388607)
+ 176 compressed objects within 2 object streams
+ 24 named destinations out of 1000 (max. 500000)
+ 258 words of extra memory for PDF output out of 10000 (max. 10000000)
 

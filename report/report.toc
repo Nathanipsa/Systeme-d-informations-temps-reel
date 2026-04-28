@@ -1,3 +1,12 @@
-\contentsline {chapter}{Introduction}{1}{figure.caption.1}%
-\contentsline {chapter}{\numberline {I}Getting Started}{3}{chapter.1}%
-\contentsfinish 
+\contentsline {chapter}{Introduction}{1}{Doc-Start}%
+\contentsline {chapter}{\numberline {I}SYSTEM MODELING AND WCET EXTRACTION}{3}{chapter.1}%
+\contentsline {section}{\numberline {I.1}WCET Evaluation for $\tau _1$}{3}{section.1.1}%
+\contentsline {section}{\numberline {I.2}Data Scaling Strategy}{3}{section.1.2}%
+\contentsline {chapter}{\numberline {II}SCHEDULABILITY AND OPTIMIZATION}{4}{chapter.2}%
+\contentsline {section}{\numberline {II.1}Processor Utilization and Hyperperiod}{4}{section.2.1}%
+\contentsline {section}{\numberline {II.2}Algorithmic Complexity}{4}{section.2.2}%
+\contentsline {section}{\numberline {II.3}Minimizing Wait Time and Maximizing Idle Time}{4}{section.2.3}%
+\contentsline {chapter}{\numberline {III}SCHEDULING SCENARIOS AND RESULTS}{5}{chapter.3}%
+\contentsline {section}{\numberline {III.1}Scenario 1: Strict Schedule (No Deadlines Missed)}{5}{section.3.1}%
+\contentsline {section}{\numberline {III.2}Scenario 2: Relaxed Constraints ($\tau _5$ Delay)}{6}{section.3.2}%
+\contentsline {chapter}{CONCLUSION}{7}{table.caption.3}%

@@ -42,6 +42,7 @@ Job best_schedule[MAX_JOBS];
 int total_jobs = 0;
 int best_wait_time = INT_MAX;
 long long explored_nodes = 0;
+int hyperperiod = 0;
 
 /* Compute greatest common divisor */
 static inline int gcd(int a, int b) {
@@ -95,9 +96,20 @@ void solve_branch_and_bound(int current_time, int completed_count, int current_w
         for (int i = 0; i < total_jobs; i++) {
             best_schedule[i] = current_schedule[i];
         }
-        /* Display real-time improvement notifications */
+        /* Compute busy/idle/utilization stats for the hyperperiod */
+        long long busy_time = 0;
+        for (int k = 0; k < total_jobs; k++) {
+            busy_time += best_schedule[k].c;
+        }
+        int idle_time = (hyperperiod > 0) ? (int)(hyperperiod - busy_time) : 0;
+        double avg_wait = (double)best_wait_time / (double)total_jobs;
+        double utilization = (hyperperiod > 0) ? ((double)busy_time / (double)hyperperiod) : 0.0;
+
+        /* Display real-time improvement notifications including idle time */
         printf("New minimum found! Total wait time = %d (Nodes explored: %lld)\n",
                best_wait_time, explored_nodes);
+        printf(" Busy time: %lld | Idle time: %d | Avg wait/job: %.2f | Utilization: %.2f%%\n",
+               busy_time, idle_time, avg_wait, utilization * 100.0);
         return;
     }
 
@@ -152,6 +164,11 @@ void solve_branch_and_bound(int current_time, int completed_count, int current_w
 /* Display the best schedule found */
 void print_best_schedule(void) {
     printf("\n--- BEST GLOBAL SCHEDULE FOUND ---\n");
+    if (best_wait_time == INT_MAX) {
+        printf("No feasible complete schedule was found.\n");
+        return;
+    }
+
     printf("MINIMUM TOTAL WAIT TIME: %d\n", best_wait_time);
     printf("\nSchedule Details:\n");
 
@@ -179,10 +196,8 @@ void run_scenario(bool allow_t5_miss) {
     for (int i = 0; i < total_jobs; i++) {
         jobs[i].is_completed = false;
     }
-
-    /* Initialize with heuristic bound (EDF) for faster pruning */
-    best_wait_time = 150;
-
+    /* Note: do not set an arbitrary upper bound here. Allow the search
+       to find the first complete schedule to initialize the bound. */
     printf("Starting exhaustive search...\n");
     solve_branch_and_bound(0, 0, 0, allow_t5_miss);
     print_best_schedule();
@@ -190,9 +205,10 @@ void run_scenario(bool allow_t5_miss) {
 
 int main(void) {
     int hp = calculate_hyperperiod();
-    printf("Hyperperiod: %d\n", hp);
+    hyperperiod = hp;
+    printf("Hyperperiod: %d\n", hyperperiod);
 
-    init_jobs(hp);
+    init_jobs(hyperperiod);
 
     printf("\n===================================================");
     printf("\nSCENARIO 1: Strict (No deadline misses allowed)\n");

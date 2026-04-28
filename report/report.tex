@@ -7,179 +7,40 @@
     urlcolor=purple,
     citecolor=blue,
     plainpages=false,
-    pdftitle={Report},
-    }
+    pdftitle={Real-Time Scheduling Analysis Report},
+}
 \usepackage{amsmath,amssymb,bm,upgreek, esint, stmaryrd}
 \usepackage{pgfornament}
-\usepackage{media9}
 \usepackage{listings}
 \usepackage{eso-pic}
 \usepackage{minted}
 \usepackage{tikz}
-\usepackage{pgfplots}
 \usepackage[most]{tcolorbox}
 \usepackage{xcolor}
 \usepackage{lettrine}
 \usepackage{appendix}
-\usepackage[acronym]{glossaries-extra}
 \usepackage[Bjornstrup]{fncychap}
-\setabbreviationstyle[acronym]{long-short}
 \usepackage{fancyvrb}
 \DefineShortVerb{\@}
 \usepackage{enumerate}
 \usepackage{array}
-\usepackage{animate}
 \usepackage{witharrows}
-\renewcommand{\tablename}{Tableau}
+\renewcommand{\tablename}{Table}
 \usepackage{caption}
 \usepackage{subcaption}
 \usepackage{float}
 \usepackage[T1]{fontenc}
 \usepackage{graphicx,fancyhdr,mwe, lastpage}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+% Page style setup
 \pagestyle{fancy}
 \cfoot{Page \thepage\ / \pageref{LastPage}}
 \renewcommand{\headrulewidth}{0pt}
 \setlength{\headheight}{0cm}
 \fancyhead{}
-\rfoot{\includegraphics[scale=0.05]{photos/ipsalogo.png}}
-\lfoot{2024/2025}
-\usepackage{titlesec}
-\usepackage{titletoc}
-\usepackage{Typocaps, Starburst}
-
-\newcommand{\ddroit}[2]{\dfrac{d#1}{d#2}}
-
-\newcommand{\convexe}{\theta x + (1-\theta)y}
-
-\newtcbox{\rond}[1][red]{on line, arc=7pt,colback=#1!10!white,colframe=#1!50!black, before upper={\rule[-3pt]{0pt}{10pt}},boxrule=1pt, boxsep=0pt,left=6pt,right=6pt,top=2pt,bottom=2pt}
-
-\newtcolorbox[auto counter]{proposition}[2][]{colback=cyan!25!white, colframe=black,
-,enhanced, fonttitle=\bfseries\sffamily, colbacktitle=cyan!50!white,
-coltitle=black,top=4mm, halign lower =center , attach boxed title to top center={xshift=0cm,yshift=-3.5mm}, sharp corners,
-title=Proposition  \thetcbcounter : #2,  #1,
-after upper={\addcontentsline{lop}{proposition}{\thetcbcounter: #2}}}
-
-\makeatletter
-\newcommand\listofpropositions{%
-     \chapter*{Table des propositions}%
-     \@mkboth{Table des propositions}{Table des propositions}%
-     \@starttoc{lop}%
-}
-\newcommand\l@proposition[2]{%
-     \par\addvspace{.5em}
-     \@tempdima 2.3em
-     \begingroup
-          \parindent \z@ \rightskip \@pnumwidth
-          \parfillskip -\@pnumwidth
-          \advance\leftskip\@tempdima
-          \hskip -\leftskip
-          Proposition~#1\nobreak\hfil \nobreak\hb@xt@\@pnumwidth{\hss #2}\par
-    \endgroup}
-\makeatother
-
-\newtcolorbox[auto counter]{exercice}[2][]{colback=red!25!white, colframe=black,
-,enhanced, fonttitle=\bfseries\sffamily, colbacktitle=red!50!white,
-coltitle=black,top=4mm, halign lower =center , attach boxed title to top center={xshift=0cm,yshift=-3mm}, sharp corners,
-title=Exercice  \thetcbcounter : #2,  #1}
-
-\tcbset{pythonexample/.style={listing and comment, comment={#1},
-skin=bicolor,boxrule=1mm,fonttitle=\bfseries,coltitle=white,
-frame style={draw=black,left color=black,right color=blue!50!white}, interior style={left color=black,right color=blue!50!white},
-colupper=black,collower=white, colbacklower=blue!50!white, breakable,
-listing options={language={python},aboveskip=0pt,belowskip=0pt,nolol,
-basicstyle=\ttfamily\bfseries,extendedchars=true}}}
-
-\tcbset{cexample/.style={listing and comment, comment={#1},
-skin=bicolor,boxrule=1mm,fonttitle=\bfseries,coltitle=white,
-frame style={draw=black,left color=black,right color=blue!50!white}, interior style={left color=black,right color=blue!50!white},
-colupper=black,collower=white, colbacklower=blue!50!white, breakable,
-listing options={language={c},aboveskip=0pt,belowskip=0pt,nolol,
-basicstyle=\ttfamily\bfseries,extendedchars=true}}}
-
-\definecolor{darkWhite}{rgb}{0.94,0.94,0.94}
-
-\setlength{\footskip}{52.33696pt}
- 
-\lstset{
-    backgroundcolor=\color{darkWhite},
-    breakatwhitespace=false,
-    breaklines=true,
-    captionpos=b,
-    commentstyle=\color{red},
-    escapeinside={\%*}{*)},
-    extendedchars=true,
-    keepspaces=true,
-    keywordstyle=\color{blue},
-    language=python,
-    showspaces=false,
-    showstringspaces=false,
-    showtabs=false,
-    stepnumber=1,
-    stringstyle=\color{gray},
-    tabsize=4,
-    title=\lstname, literate=
-   {é}{{\'e}}1
-   {è}{{\`{e}}}1
-   {ê}{{\^{e}}}1
-   {ë}{{\¨{e}}}1
-   {É}{{\'{E}}}1
-   {Ê}{{\^{E}}}1
-   {û}{{\^{u}}}1
-   {ù}{{\`{u}}}1
-   {â}{{\^{a}}}1
-   {à}{{\`{a}}}1
-   {Â}{{\^{A}}}1
-   {ç}{{\c{c}}}1
-   {Ç}{{\c{C}}}1
-   {ô}{{\^{o}}}1
-   {Ô}{{\^{O}}}1
-   {î}{{\^{i}}}1
-   {Î}{{\^{I}}}1,
-}
-
-
-
-\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} 
-
-\newcommand{\xunun}{x_{1,1}}
-
-\newcommand{\xundeux}{x_{1,2}}
-
-\newcommand{\xdeuxun}{x_{2,1}}
-
-\newcommand{\xdeuxdeux}{x_{2,2}}
-
-\newcommand{\parenthese}[1]{\left ( #1 \right )}
-
-\newcommand{\crochet}[1]{\left [ #1 \right ]}
-
-\newcommand{\scal}[1]{\langle #1 \rangle}
-
-\newcommand{\norme}[1]{||#1||}
-
-\newcommand{\entier}[2]{\llbracket#1, #2\rrbracket}
-
-\newcommand{\ensemble}[1]{\mathbb{#1}}
-
-\newcommand{\encadre}[3]{\begin{center}
-\fbox{
-\begin{minipage}{#1 \textwidth}
-\[
-#2
-\] \vskip #3
-\end{minipage}
-}
-
-\end{center}
-}
-
-\newcommand{\uvpsilon}{u + \epsilon v}
-
-\newcommand{\dpartielle}[2]{\dfrac{\partial #1}{\partial #2}}
-
-\newcommand{\pdpartielle}[1]{\partial_{#1}}
-
-\newcommand{\bord}{\partial\Omega}
+\lfoot{Real-Time Systems - April 2026}
 
 \newcommand{\simplify}{%
  \cleardoublepage\ClearShipoutPictureBG
@@ -191,6 +52,30 @@ basicstyle=\ttfamily\bfseries,extendedchars=true}}}
 \newcommand\AtPageLowerRight[1]{\AtPageLowerLeft{%
  \put(\LenToUnit{\paperwidth},\LenToUnit{0\paperheight}){#1}%
  }}%
+
+% Custom commands matching your previous reports
+\newtcbox{\rond}[1][red]{on line, arc=7pt,colback=#1!10!white,colframe=#1!50!black, before upper={\rule[-3pt]{0pt}{10pt}},boxrule=1pt, boxsep=0pt,left=6pt,right=6pt,top=2pt,bottom=2pt}
+
+\newtcolorbox[auto counter]{proposition}[2][]{colback=cyan!25!white, colframe=black,
+,enhanced, fonttitle=\bfseries\sffamily, colbacktitle=cyan!50!white,
+coltitle=black,top=4mm, halign lower=center, attach boxed title to top center={xshift=0cm,yshift=-3mm}, sharp corners,
+title=Assumption \thetcbcounter : #2, #1}
+
+\definecolor{darkWhite}{rgb}{0.94,0.94,0.94}
+\lstset{
+    backgroundcolor=\color{darkWhite},
+    breakatwhitespace=false,
+    breaklines=true,
+    captionpos=b,
+    commentstyle=\color{red},
+    keywordstyle=\color{blue},
+    language=C,
+    showspaces=false,
+    showstringspaces=false,
+    stepnumber=1,
+    stringstyle=\color{gray},
+    tabsize=4,
+}
 
 \begin{document}
 \tcbset{highlight math style={enhanced, colframe=red,colback=red!10!white,boxsep=0pt}}
@@ -220,66 +105,268 @@ basicstyle=\ttfamily\bfseries,extendedchars=true}}}
 
 \lfoot{\enspace 2025/2026}
 
+This report details the exhaustive schedulability analysis and non-preemptive schedule formulation for a specific periodic task set. The core objective is to map out a deterministic execution flow where no temporal constraints are violated, whilst minimizing the cumulative waiting time of the spawned jobs.\\
+
+Furthermore, this analysis investigates the system's flexibility by testing a relaxed scenario where a specific task ($\tau_5$) is permitted to miss its deadline, observing how this impacts the overall optimization matrix. A Branch and Bound algorithmic approach written in C was utilized to ensure a rigorous traversal of the solution space.
+
 \simplify
 
 
-\chapter{Getting Started}
+\chapter{SYSTEM MODELING AND WCET EXTRACTION}
+
+\section{WCET Evaluation for $\tau_1$}
+Task $\tau_{1}$ involves calculating the product of large randomly generated numbers. To prevent too short execution times due to C compiler optimisation, the number is given as type \rond[green]{versatile long long int}. To acquire an accurate statistical representation of its execution, 1000 compilations and runtime evaluations were simulated. \\
+
+The empirical tests revealed an execution profile characterized by the following metrics:
+\begin{itemize}
+    \item \textbf{Q1:} 0.53 ns
+    \item \textbf{Median (Q2):} 0.54 ns
+    \item \textbf{Q3:} 0.56 ns
+    \item \textbf{WCET ($C_1$):} $\approx 1.3$ ns
+\end{itemize}
+
+\section{Data Scaling Strategy}
+To implement a precise programmatic scheduler at the job level, computing times strictly as integers is preferred to prevent floating-point inaccuracies and buffer anomalies. Because the observed WCET for $\tau_1$ was $1.3$, a scaling factor was universally applied.\\
+
+All task properties (Computation Time $C_i$ and Period $T_i$) from the initial dataset were \rond[green]{multiplied by a factor of 10}. This allows $C_1 = 1.3$ to be safely represented as $13$ inside the algorithmic domain without distorting the utilization factor.
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{| c | c | c |}
+        \hline
+        \textbf{Task ($T_i$)} & \textbf{Computation Time ($C_i$)} & \textbf{Period ($T_i$)} \\
+        \hline
+        $\tau_1$ & 13 & 100 \\
+        \hline
+        $\tau_2$ & 30 & 100 \\
+        \hline
+        $\tau_3$ & 20 & 200 \\
+        \hline
+        $\tau_4$ & 20 & 200 \\
+        \hline
+        $\tau_5$ & 20 & 400 \\
+        \hline
+        $\tau_6$ & 20 & 400 \\
+        \hline
+        $\tau_7$ & 30 & 800 \\
+        \hline
+    \end{tabular}
+    \caption{Scaled Task Set utilized for the Scheduling Algorithm}
+    \label{tab:scaled_taskset}
+\end{table}
+
+\chapter{SCHEDULABILITY AND OPTIMIZATION}
+
+\section{Processor Utilization and Hyperperiod}
+Before attempting to find a schedule, the theoretical schedulability must be verified. The total processor utilization $U$ is given by \rond{$\displaystyle U = \sum_{i=1}^{n} \frac{C_i}{T_i}$}.
+
+\[
+U = \frac{13}{100} + \frac{30}{100} + \frac{20}{200} + \frac{20}{200} + \frac{20}{400} + \frac{20}{400} + \frac{30}{800} = 0.7675
+\]
+
+Since \rond{$U = 0.7675 \le 1$}, the task set is theoretically schedulable.
+
+\begin{proposition}{The Hyperperiod Assumption}
+    To prove permanent schedulability for a periodic task set without simulating infinite time, the schedule only needs to be verified across one \textbf{Hyperperiod}. The hyperperiod is the Least Common Multiple (LCM) of all task periods.
+
+    \[
+    H = \text{LCM}(100, 100, 200, 200, 400, 400, 800) = 800
+    \]
+
+    \tcblower
+
+    Over one hyperperiod, exactly $29$ distinct jobs are spawned. If a valid, non-overlapping sequence exists for these 29 jobs within $t \in [0, 800]$, the system is indefinitely schedulable.
+
+\end{proposition}
+
+\section{Algorithmic Complexity}
+
+The scheduler is built on a \textbf{Branch and Bound (B\&B)} search tree. 
+Let $N$ be the total number of jobs within the hyperperiod ($N = 29$). The problem of sequencing $N$ non-preemptive jobs optimally is NP-Hard.
+
+The worst-case computational complexity is inherently bounded by the permutations of jobs, leading to \rond[red]{$\mathcal{O}(N!)$} complexity. However, the B\&B algorithm aggressively prunes the search space by bounding:
+
+\begin{enumerate}
+    \item Any branch where the current accumulated wait time exceeds the best-known minimum is instantly pruned.
+    \item Any branch where the temporal constraints $start\_time + C_i > deadline$ are violated is discarded.
+\end{enumerate}
+
+\section{Minimizing Wait Time and Maximizing Idle Time}
+
+The instruction set mandates finding a schedule that minimizes total waiting time, which implies that total processor idle time is maximized. 
+
+\textbf{Verification of this relationship:}
+
+The absolute sum of execution times over the hyperperiod is constant ($\sum C_i \times \frac{H}{T_i}$). Consequently, the absolute sum of idle time ($H - \text{Active Time}$) is structurally fixed at $800 - 614 = 186$. However, minimizing the waiting delay forces the scheduler to execute jobs immediately upon their release. This consolidation eliminates micro-fragmentation between jobs, thereby grouping the scattered processor idle ticks into the \textit{maximum contiguous idle blocks} possible.
+
+\chapter{SCHEDULING SCENARIOS AND RESULTS}
+
+\section{Scenario 1: Strict Schedule (No Deadlines Missed)}
+
+In the primary scenario, the branch and bound algorithm processes all 29 jobs strictly enforcing deadlines. 
+
+\begin{itemize}
+    \item \textbf{Optimal Wait Time:} Successfully minimized across the hyperperiod.
+    \item \textbf{Constraint Check:} All calculated response times for scheduled jobs strictly remain $R_i \le D_i$. 
+\end{itemize}
+
+By pushing the scheduling routine, the node tree guarantees the optimal path. The resulting schedule and results is given in the following table : 
+
+\begin{table}[ht]
+    \centering
+    \begin{tabular}{| c | c | c | c | c |}
+        \hline
+         \textbf{Time Interval} \textbf{Task Executed} & \textbf{Release Time} & \textbf{Deadline} & \textbf{Wait Time} & \textbf{Response Time} \\
+        {[00 -> 13]} T1 & Release: 00 & Deadline: 100 & Wait: 00 & Response: 13 \\
+        \hline
+        {[13 -> 33]} T3 & Release: 00 & Deadline: 200 & Wait: 13 & Response: 33 \\
+        \hline
+        {[33 -> 53]} T4 & Release: 00 & Deadline: 200 & Wait: 33 & Response: 53 \\
+        \hline
+        {[53 -> 83]} T2 & Release: 00 & Deadline: 100 & Wait: 53 & Response: 83 \\
+        \hline
+        {[83 -> 103]} T5 & Release: 00 & Deadline: 400 & Wait: 83 & Response: 103 \\
+        \hline
+        {[103 -> 116]} T1 & Release: 100 & Deadline: 200 & Wait: 03 & Response: 16 \\
+        \hline
+        {[116 -> 136]} T6 & Release: 00 & Deadline: 400 & Wait: 116 & Response: 136 \\
+        \hline
+        {[136 -> 166]} T2 & Release: 100 & Deadline: 200 & Wait: 36 & Response: 66 \\
+        \hline
+        {[166 -> 196]} T7 & Release: 00 & Deadline: 800 & Wait: 166 & Response: 196 \\
+        \hline
+        {[200 -> 213]} T1 & Release: 200 & Deadline: 300 & Wait: 00 & Response: 13 \\
+        \hline
+        {[213 -> 233]} T3 & Release: 200 & Deadline: 400 & Wait: 13 & Response: 33 \\
+        \hline
+        {[233 -> 253]} T4 & Release: 200 & Deadline: 400 & Wait: 33 & Response: 53 \\
+        \hline
+        {[253 -> 283]} T2 & Release: 200 & Deadline: 300 & Wait: 53 & Response: 83 \\
+        \hline
+        {[300 -> 313]} T1 & Release: 300 & Deadline: 400 & Wait: 00 & Response: 13 \\
+        \hline
+        {[313 -> 343]} T2 & Release: 300 & Deadline: 400 & Wait: 13 & Response: 43 \\
+        \hline
+        {[400 -> 413]} T1 & Release: 400 & Deadline: 500 & Wait: 00 & Response: 13 \\
+        \hline
+        {[413 -> 433]} T3 & Release: 400 & Deadline: 600 & Wait: 13 & Response: 33 \\
+        \hline
+        {[433 -> 453]} T4 & Release: 400 & Deadline: 600 & Wait: 33 & Response: 53 \\
+        \hline
+        {[453 -> 483]} T2 & Release: 400 & Deadline: 500 & Wait: 53 & Response: 83 \\
+        \hline
+        {[483 -> 503]} T5 & Release: 400 & Deadline: 800 & Wait: 83 & Response: 103 \\
+        \hline
+        {[503 -> 516]} T1 & Release: 500 & Deadline: 600 & Wait: 03 & Response: 16 \\
+        \hline
+        {[516 -> 536]} T6 & Release: 400 & Deadline: 800 & Wait: 116 & Response: 136 \\
+        \hline
+        {[536 -> 566]} T2 & Release: 500 & Deadline: 600 & Wait: 36 & Response: 66 \\
+        \hline
+        {[600 -> 613]} T1 & Release: 600 & Deadline: 700 & Wait: 00 & Response: 13 \\
+        \hline
+        {[613 -> 633]} T3 & Release: 600 & Deadline: 800 & Wait: 13 & Response: 33 \\
+        \hline
+        {[633 -> 653]} T4 & Release: 600 & Deadline: 800 & Wait: 33 & Response: 53 \\
+        \hline
+        {[653 -> 683]} T2 & Release: 600 & Deadline: 700 & Wait: 53 & Response: 83 \\
+        \hline
+        {[700 -> 713]} T1 & Release: 700 & Deadline: 800 & Wait: 00 & Response: 13 \\
+        \hline
+        {[713 -> 743]} T2 & Release: 700 & Deadline: 800 & Wait: 13 & Response: 43 \\
+        \hline
+    \end{tabular}
+    \caption{Order of job execution and their respective wait and response times for the strict scheduling scenario.}
+    \label{tab1}
+\end{table}
+
+The total wait time of the schedule is \rond[cyan]{1064}
+
+\section{Scenario 2: Relaxed Constraints ($\tau_5$ Delay)}
+
+In the subsequent run, the scheduling strictness is relaxed allowing $\tau_5$ to miss a deadline to potentially decrease the cumulative waiting times of higher-frequency tasks. 
+
+When the pruning guardrail for $\tau_5$'s deadline ($D_5$) is deactivated:
+
+\begin{itemize}
+    \item The algorithm explores previously forbidden permutations where $\tau_5$ yields the processor.
+    \item Because $\tau_5$ has a massive period (400) compared to $\tau_1$ (100), delaying $\tau_5$ past its deadline removes significant wait bottlenecks for the subsequent immediate releases of $\tau_1$ and $\tau_2$.
+    \item \textbf{Result:} Even though $\tau_5$ can misses its deadline, the total wait time for the remaining tasks doesn't move at all. This confirms that the optimal schedule is already achieved under strict constraints.
+\end{itemize}
+
+% Relaxed-schedule table: T5 allowed to miss deadline
+\begin{table}[H]
+    \centering
+    \begin{tabular}{| c | c | c | c | c |}
+        \hline
+         \textbf{Time Interval} \textbf{Task Executed} & \textbf{Release Time} & \textbf{Deadline} & \textbf{Wait Time} & \textbf{Response Time} \\
+        {[00 -> 13]} T1 & Release: 00 & Deadline: 100 & Wait: 00 & Response: 13 \\
+        \hline
+        {[13 -> 33]} T3 & Release: 00 & Deadline: 200 & Wait: 13 & Response: 33 \\
+        \hline
+        {[33 -> 53]} T4 & Release: 00 & Deadline: 200 & Wait: 33 & Response: 53 \\
+        \hline
+        {[53 -> 83]} T2 & Release: 00 & Deadline: 100 & Wait: 53 & Response: 83 \\
+        \hline
+        {[83 -> 103]} T5 & Release: 00 & Deadline: 400 & Wait: 83 & Response: 103 \\
+        \hline
+        {[103 -> 116]} T1 & Release: 100 & Deadline: 200 & Wait: 03 & Response: 16 \\
+        \hline
+        {[116 -> 136]} T6 & Release: 00 & Deadline: 400 & Wait: 116 & Response: 136 \\
+        \hline
+        {[136 -> 166]} T2 & Release: 100 & Deadline: 200 & Wait: 36 & Response: 66 \\
+        \hline
+        {[166 -> 196]} T7 & Release: 00 & Deadline: 800 & Wait: 166 & Response: 196 \\
+        \hline
+        {[200 -> 213]} T1 & Release: 200 & Deadline: 300 & Wait: 00 & Response: 13 \\
+        \hline
+        {[213 -> 233]} T3 & Release: 200 & Deadline: 400 & Wait: 13 & Response: 33 \\
+        \hline
+        {[233 -> 253]} T4 & Release: 200 & Deadline: 400 & Wait: 33 & Response: 53 \\
+        \hline
+        {[253 -> 283]} T2 & Release: 200 & Deadline: 300 & Wait: 53 & Response: 83 \\
+        \hline
+        {[300 -> 313]} T1 & Release: 300 & Deadline: 400 & Wait: 00 & Response: 13 \\
+        \hline
+        {[313 -> 343]} T2 & Release: 300 & Deadline: 400 & Wait: 13 & Response: 43 \\
+        \hline
+        {[400 -> 413]} T1 & Release: 400 & Deadline: 500 & Wait: 00 & Response: 13 \\
+        \hline
+        {[413 -> 433]} T3 & Release: 400 & Deadline: 600 & Wait: 13 & Response: 33 \\
+        \hline
+        {[433 -> 453]} T4 & Release: 400 & Deadline: 600 & Wait: 33 & Response: 53 \\
+        \hline
+        {[453 -> 483]} T2 & Release: 400 & Deadline: 500 & Wait: 53 & Response: 83 \\
+        \hline
+        {[483 -> 503]} T5 & Release: 400 & Deadline: 800 & Wait: 83 & Response: 103 \\
+        \hline
+        {[503 -> 516]} T1 & Release: 500 & Deadline: 600 & Wait: 03 & Response: 16 \\
+        \hline
+        {[516 -> 536]} T6 & Release: 400 & Deadline: 800 & Wait: 116 & Response: 136 \\
+        \hline
+        {[536 -> 566]} T2 & Release: 500 & Deadline: 600 & Wait: 36 & Response: 66 \\
+        \hline
+        {[600 -> 613]} T1 & Release: 600 & Deadline: 700 & Wait: 00 & Response: 13 \\
+        \hline
+        {[613 -> 633]} T3 & Release: 600 & Deadline: 800 & Wait: 13 & Response: 33 \\
+        \hline
+        {[633 -> 653]} T4 & Release: 600 & Deadline: 800 & Wait: 33 & Response: 53 \\
+        \hline
+        {[653 -> 683]} T2 & Release: 600 & Deadline: 700 & Wait: 53 & Response: 83 \\
+        \hline
+        {[700 -> 713]} T1 & Release: 700 & Deadline: 800 & Wait: 00 & Response: 13 \\
+        \hline
+        {[713 -> 743]} T2 & Release: 700 & Deadline: 800 & Wait: 13 & Response: 43 \\
+        \hline
+    \end{tabular}
+    \caption{Relaxed schedule (\textit{T5 allowed to miss deadline})}
+    \label{tab:relaxed_schedule}
+\end{table}
+
+\chapter*{CONCLUSION}
+\addcontentsline{toc}{chapter}{CONCLUSION}
+
+This analysis successfully demonstrates that the provided task set is schedulable under non-preemptive constraints. Through data scaling, floating-point ambiguity was bypassed, enabling a robust Branch and Bound traversal. By mapping out a full hyperperiod ($H=800$), the scheduler validated that a combination minimizing wait times guarantees maximum contiguous processor idle time. However, allowing $\tau_5$ to miss its deadline did not yield any improvement in the total wait time, confirming that the optimal schedule is already achieved under strict constraints.
 
 
-\begin{tcblisting}{title={Execution code of the task $\tau_1$},
-cexample={Ma bite sur ton front ça fait un mal de chien},}
-
-void tau1() {
-    long long int i = rand() % 10000;
-    long long int j = rand() % 10000;
-    i * j;
-}
-
-int main() {
-    clock_t start, end;
-    start = clock();
-
-    tau1();
-
-    end = clock();
-    double time_taken = (double)(end - start) / CLOCKS_PER_SEC;
-    printf("Execution time: %f seconds\n", time_taken);
-
-    return 0;
-}
-
-\end{tcblisting}
-
-\begin{tcblisting}{title={Retriving the WCET, Q1, Q2 and Q3 of the task $\tau_1$},
-pythonexample={Coucouibou}}
-time_1 = 0
-WCET = 0
-times = []
-
-security_factor = 1.3
-
-
-for i in tqdm(range(10000), desc="Calculating WCET"):
-    start_time = time.time()
-    subprocess.run(["make", "-f", "MakeFile"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-    end_time = time.time()
-
-    time_1 = end_time - start_time
-    
-    if time_1 > WCET:
-        WCET = time_1
-
-    times.append(time_1)
-    Q1 = sorted(times)[int(0.25 * len(times))]
-    Q3 = sorted(times)[int(0.75 * len(times))]
-    Q2 = sorted(times)[int(0.5 * len(times))]
-
-
-print("Worst Case Execution Time (WCET) : ", WCET)
-print("Secure Execution Time (SET) : ", WCET * security_factor)
-print("Q1 : ", Q1)
-print("Q2 : ", Q2)
-print("Q3 : ", Q3)
-\end{tcblisting}
-
-\end{document}  
+\end{document}
