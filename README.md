@@ -1,3 +1,98 @@
+# Systèmes d'informations temps réel - Mini-projet / rapport
+
+Ce dépôt regroupe des travaux autour des systèmes temps réel :
+- une petite base de code en C pour les mesures et la simulation,
+- un solveur d'ordonnancement en branch and bound,
+- un script Python pour estimer un WCET,
+- un rapport LaTeX (PDF) et l'énoncé du devoir.
+
+> Langages (approx.) : TeX 71.8 % · C 24.1 % · Python 4.1 %.
+
+## Contenu du dépôt
+
+- `ordonancing.c` : algorithme d'ordonnancement en branch and bound sur un ensemble de tâches périodiques. Il calcule l'hyperpériode, génère les jobs sur l'intervalle, explore les séquences d'exécution et minimise le temps d'attente total.
+- `final.c` : petit programme C de mesure/simulation qui exécute une charge `tau1()` et affiche le temps d'exécution.
+- `MakeFile` : compilation de `final.c` et exécution du binaire `final`.
+- `stats.py` : script d'analyse WCET côté compilation, qui mesure le temps de `gcc -c final.c` sur 1000 itérations et affiche WCET, SET et quartiles.
+- `report/` : rapport LaTeX et PDF générés.
+  - `report/report.tex` : source LaTeX
+  - `report/report.pdf` : rapport compilé
+- `Final_Assignment.pdf` : énoncé du devoir.
+
+## Prérequis
+
+- GCC ou un compilateur compatible
+- Make
+- Python 3
+- `tqdm` pour la barre de progression
+
+```bash
+pip install tqdm
+```
+
+## Compilation / exécution
+
+### Compiler et exécuter `final.c`
+
+Le `MakeFile` compile `final.c` en `final` puis exécute le programme.
+
+```bash
+make
+```
+
+Nettoyer :
+
+```bash
+make clean
+```
+
+### Lancer le solveur d'ordonnancement
+
+`ordonancing.c` n'est pas intégré au `MakeFile` du dépôt. Pour le compiler manuellement :
+
+```bash
+gcc -O2 -Wall -Wextra -o ordonancing ordonancing.c
+./ordonancing
+```
+
+Le programme exécute deux scénarios :
+1. **Strict** : aucune tâche n'a le droit de rater sa deadline.
+2. **Relaxed** : la tâche **T5** est autorisée à rater sa deadline.
+
+À la fin, il affiche le meilleur planning trouvé et des statistiques (busy/idle/utilization).
+
+### Estimer un WCET
+
+`stats.py` mesure le temps de compilation de `final.c`. Ce n'est pas le temps d'exécution du binaire, mais le temps de `gcc -c`.
+
+```bash
+python3 stats.py
+```
+
+Paramètres importants du script :
+- `MAX_ITERATIONS = 1000`
+- `SECURITY_FACTOR = 1.3` pour le calcul du SET
+
+## Rapport
+
+Le rapport se trouve dans `report/`.
+- PDF : `report/report.pdf`
+- Source : `report/report.tex`
+
+Pour recompiler le rapport, il faut une distribution LaTeX comme TeX Live ou MiKTeX :
+
+```bash
+cd report
+latexmk -pdf report.tex
+```
+
+## Notes
+
+- Le dépôt contient des fichiers générés, par exemple `report/*.aux`, `report/*.log`, `final.o` ou `a.out`. Pour un dépôt plus propre, vous pouvez ajouter un `.gitignore` et supprimer les artefacts compilés.
+
+## Licence
+
+Non spécifiée.
 # Real-Time Information Systems (Real-Time) — Mini Project / Report
 
 This repository contains work related to real-time systems:
