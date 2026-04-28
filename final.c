@@ -1,15 +1,15 @@
-#include<stdlib.h>
-#include<stdio.h>
-#include<time.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <time.h>
 
-
-void tau1() {
-    long long int i = rand() % 10000;
-    long long int j = rand() % 10000;
-    i * j;
+/* Simulate workload by performing random computation */
+static inline void tau1(void) {
+    long long i = rand() % 10000;
+    long long j = rand() % 10000;
+    volatile long long result = i * j; /* Use volatile to prevent compiler optimization */
 }
 
-int main() {
+int main(void) {
     clock_t start, end;
     start = clock();
 

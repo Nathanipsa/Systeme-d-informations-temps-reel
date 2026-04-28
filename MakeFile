@@ -1,24 +1,20 @@
-CC = gcc   # compilateur à utiliser
+CC = gcc
+CFLAGS = -Wall -Wextra -O2 -g -pthread
 
-CFLAGS = -Wall -g -pthread     # flags à utiliser (Wall pour tous les warnings)
+# Default target: build and run final executable
+all: final
+	./final
 
-
-# On execute tous les fichiers td1
-
-all: final 
-	./final    
-
-# On dit à phony que all et clean sont des fonctions pas des fichiers
 .PHONY: all clean
 
-# On crée un lien entre des fichiers objets et nos fichiers c
+# Link object files to create executable
 final: final.o
 	$(CC) $(CFLAGS) -o final final.o
 
-# On crée nos fichiers objets déjà linkés
+# Compile source files to object files
 final.o: final.c
 	$(CC) $(CFLAGS) -c final.c
 
-# On enlève nos objets pour libérer l'espace inutile
+# Clean up compiled files
 clean:
 	rm -f *.o final
